@@ -1,0 +1,241 @@
+[
+  {
+    "iconName": ":keynote:",
+    "appNames": [
+      "Keynote",
+      "Keynote \u8bb2\u6f14\")"
+    ]
+  },
+  {
+    "iconName": ":terminal:",
+    "appNames": [
+      "Alacritty",
+      "Hyper",
+      "Terminal",
+      "WezTerm\")",
+      "iTerm2",
+      "kitty",
+      "\u7ec8\u7aef"
+    ]
+  },
+  {
+    "iconName": ":things:",
+    "appNames": [
+      "Microsoft To Do",
+      "Things\")"
+    ]
+  },
+  {
+    "iconName": ":discord:",
+    "appNames": [
+      "Discord",
+      "Discord Canary",
+      "Discord PTB\")"
+    ]
+  },
+  {
+    "iconName": ":rider:",
+    "appNames": [
+      "JetBrains Rider\")",
+      "Rider"
+    ]
+  },
+  {
+    "iconName": ":reminders:",
+    "appNames": [
+      "Reminders",
+      "\u63d0\u9192\u4e8b\u9879\")"
+    ]
+  },
+  {
+    "iconName": ":finder:",
+    "appNames": [
+      "Finder",
+      "\u8bbf\u8fbe\")"
+    ]
+  },
+  {
+    "iconName": ":notes:",
+    "appNames": [
+      "Notes",
+      "\u5907\u5fd8\u5f55\")"
+    ]
+  },
+  {
+    "iconName": ":code:",
+    "appNames": [
+      "Code",
+      "Code - Insiders\")"
+    ]
+  },
+  {
+    "iconName": ":google_chrome:",
+    "appNames": [
+      "Chromium",
+      "Google Chrome",
+      "Google Chrome Canary\")"
+    ]
+  },
+  {
+    "iconName": ":vim:",
+    "appNames": [
+      "MacVim",
+      "Neovide",
+      "Vim",
+      "VimR\")"
+    ]
+  },
+  {
+    "iconName": ":color_picker:",
+    "appNames": [
+      "Color Picker",
+      "\u6570\u7801\u6d4b\u8272\u8ba1\")"
+    ]
+  },
+  {
+    "iconName": ":twitter:",
+    "appNames": [
+      "Tweetbot",
+      "Twitter\")"
+    ]
+  },
+  {
+    "iconName": ":pages:",
+    "appNames": [
+      "Pages",
+      "Pages \u6587\u7a3f\")"
+    ]
+  },
+  {
+    "iconName": ":mamp:",
+    "appNames": [
+      "MAMP",
+      "MAMP PRO\")"
+    ]
+  },
+  {
+    "iconName": ":mail:",
+    "appNames": [
+      "Canary Mail",
+      "HEY",
+      "Mail",
+      "MailMate",
+      "Mailspring",
+      "\u90ae\u4ef6\")"
+    ]
+  },
+  {
+    "iconName": ":music:",
+    "appNames": [
+      "Music",
+      "\u97f3\u4e50\")"
+    ]
+  },
+  {
+    "iconName": ":calendar:",
+    "appNames": [
+      "Amie\")",
+      "Calendar",
+      "Cron",
+      "Fantastical",
+      "\u65e5\u5386"
+    ]
+  },
+  {
+    "iconName": ":safari:",
+    "appNames": [
+      "Safari",
+      "Safari Technology Preview\")",
+      "Safari\u6d4f\u89c8\u5668"
+    ]
+  },
+  {
+    "iconName": ":numbers:",
+    "appNames": [
+      "Numbers",
+      "Numbers \u8868\u683c\")"
+    ]
+  },
+  {
+    "iconName": ":dollar:",
+    "appNames": [
+      "GrandTotal",
+      "Receipts\")"
+    ]
+  },
+  {
+    "iconName": ":orion:",
+    "appNames": [
+      "Orion",
+      "Orion RC\")"
+    ]
+  },
+  {
+    "iconName": ":pdf:",
+    "appNames": [
+      "Preview",
+      "Skim",
+      "zathura\")",
+      "\u9884\u89c8"
+    ]
+  },
+  {
+    "iconName": ":podcasts:",
+    "appNames": [
+      "Podcasts",
+      "\u64ad\u5ba2\")"
+    ]
+  },
+  {
+    "iconName": ":dingtalk:",
+    "appNames": [
+      "DingTalk",
+      "\u9489\u9489",
+      "\u963f\u91cc\u9489\")"
+    ]
+  },
+  {
+    "iconName": ":firefox_developer_edition:",
+    "appNames": [
+      "Firefox Developer Edition",
+      "Firefox Nightly\")"
+    ]
+  },
+  {
+    "iconName": ":docker:",
+    "appNames": [
+      "Docker",
+      "Docker Desktop\")"
+    ]
+  },
+  {
+    "iconName": ":messages:",
+    "appNames": [
+      "Messages",
+      "Nachrichten\")",
+      "\u4fe1\u606f"
+    ]
+  },
+  {
+    "iconName": ":face_time:",
+    "appNames": [
+      "FaceTime",
+      "FaceTime \u901a\u8bdd\")"
+    ]
+  },
+  {
+    "iconName": ":yuque:",
+    "appNames": [
+      "Yuque",
+      "\u8bed\u96c0\")"
+    ]
+  },
+  {
+    "iconName": ":gear:",
+    "appNames": [
+      "System Preferences",
+      "System Settings",
+      "\u7cfb\u7edf\u8bbe\u7f6e\")"
+    ]
+  }
+]

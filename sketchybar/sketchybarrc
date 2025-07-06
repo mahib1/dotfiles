@@ -1,0 +1,82 @@
+# This is a demo config to showcase some of the most important commands.
+# It is meant to be changed and configured, as it is intentionally kept sparse.
+# For a (much) more advanced configuration example see my dotfiles:
+# https://github.com/FelixKratz/dotfiles
+
+source "$CONFIG_DIR/colors.sh"
+PLUGIN_DIR="$CONFIG_DIR/plugins"
+ITEM_DIR="$CONFIG_DIR/items"
+
+##### Bar Appearance #####
+# Configuring the general appearance of the bar.
+# These are only some of the options available. For all options see:
+# https://felixkratz.github.io/SketchyBar/config/bar
+# If you are looking for other colors, see the color picker:
+# https://felixkratz.github.io/SketchyBar/config/tricks#color-picker
+
+sketchybar --bar position=top height=37 blur_radius=30 color=$BAR_COLOR sticky=off \
+padding_left=10   \
+padding_right=10  \
+
+##### Changing Defaults #####
+# We now change some default values, which are applied to all further items.
+# For a full list of all available item properties see:
+# https://felixkratz.github.io/SketchyBar/config/items
+
+default=(
+  padding_left=5
+  padding_right=5
+  label.font="SF Pro:Semibold:14.0"
+  label.color=$WHITE
+  label.padding_left=5
+  label.padding_right=5
+  icon.font="SF Pro:Semibold:17.0"
+  icon.color=$WHITE
+  icon.padding_left=5
+  icon.padding_right=5
+  background.corner_radius=7
+  background.height=28
+  background.color=$ITEM_BG_COLOR
+)
+
+sketchybar --default "${default[@]}"
+sketchybar --add event media_change media
+sketchybar --add event spotify_init
+
+# -- Right Side Items -- 
+source $ITEM_DIR/calendar.sh
+source $ITEM_DIR/volume.sh
+source $ITEM_DIR/battery.sh
+source $ITEM_DIR/cpu.sh
+
+sketchybar -m --add item mic right \
+	--set mic update_freq=2 \
+	script="$PLUGIN_DIR/mic.sh" \
+	click_script="$PLUGIN_DIR/mic_click.sh" \
+	--subscribe mic volume_change
+
+
+# -- Left Side Items --
+source $ITEM_DIR/spaces.sh
+
+# -- why won't it work?? --
+source $ITEM_DIR/media.sh
+
+source $ITEM_DIR/spotify.sh
+
+# sketchybar --add event aerospace_workspace_change
+# sketchybar --add event aerospace_focus_change
+
+# sketchybar --add item aerospace left \
+#         --subscribe aerospace aerospace_workspace_change \
+#         --subscribe aerospace aerospace_focus_change \
+#         --set aerospace \
+#         label="􀏧" \
+#         click_script="aerospace reload-config" \
+#         script="$CONFIG_DIR/plugins/aerospace_plugin" \
+
+source $ITEM_DIR/front_app.sh
+
+
+##### Force all scripts to run the first time (never do this in a script) #####
+sketchybar --update
